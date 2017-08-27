@@ -28,6 +28,7 @@ Before running the tests make sure you are serving the app via `ng serve`.
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 
+
 # using ngrx for manage states
 
 For larger Angular applications with a lot of asynchronous activity and where there's a lot of state that is being shared and manipulated across multiple components and modules, managing state can be quite challenging
@@ -62,3 +63,7 @@ To read your application state in Redux, we need to use the select() method on @
 >2. reducer is "counterReducer" that manage the state with a function and then send it to store. 
 >
 >all part of module should Communicate with store for knowing the state. and for changing the state, store use the reducer function.
+
+
+
+
