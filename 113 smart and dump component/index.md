@@ -1,4 +1,4 @@
-# smart and dump component
+# smart and dumb component
 
 We can spliting components in two type :
 
