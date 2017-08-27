@@ -26,3 +26,10 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+# Share data between sibling components by service
+
+In this example we see the relation of two component in same level. they are in relation with one service seperatly. but as you see in previous example the child component dont need to access the service directly. 
+
+child component comunicate with service by its parent component. We use @Input decorator to access to varable of its parent.  
