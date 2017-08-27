@@ -29,7 +29,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 
-# smart and dump component
+# smart and dumb component
 
 We can spliting components in two type :
 
