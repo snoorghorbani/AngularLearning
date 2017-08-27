@@ -26,3 +26,11 @@ Before running the tests make sure you are serving the app via `ng serve`.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+# using index.ts for remove relative path
+
+
+A barrel is a way of wrapping up a bunch of modules into a single module that the rest of your application can reference instead. It helps consolidate your imports into something a lot more readable.
+
+In this example we want to reduce the number of imports then  we just creat a new file "index.ts".We then fill it with everything we want to export.Once this is done we can update our original app.component with a consolidated version of our imports.
